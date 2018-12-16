@@ -3,8 +3,8 @@ notifications:
 
 language: objective-c
 osx_image: xcode10
-#install: travis_wait 30 mvn install
-#install: true
+install: travis_wait 30 mvn install
+install: true
 
 matrix:
   include:
